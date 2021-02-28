@@ -98,7 +98,7 @@ delimiter   db ', ', 0h
 arrayfooter db ']', 0h
 space  		db ' ', 0h
 
-D			dd	58, 12, 39, 90, 49, 26, 68, 47, 15, 39
+D			dd	58, 56, 39, 90, 49, 26, 68, 33, 11, 22 ; **THIS IS INPUT**
 n			dd	10
 T  times 11 dd 0
 size 		dd 0
